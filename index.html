@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+Author: Emiliano Rodriguez 
+Purpose: Enhancing the way you look at your day
+-->
+<html>
+	<head>
+		<title>Live Reports - Austin, TX</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+                <link href="/Users/emiliano/codebase/webdev/css/youtube.css" rel="stylesheet" type="text/css">
+                <link href="/Users/emiliano/codebase/webdev/css/banner.css" rel="stylesheet" type="text/css">
+                <link href="/Users/emiliano/codebase/webdev/css/news.css" rel="stylesheet" type="text/css">
+                <link href="/Users/emiliano/codebase/webdev/css/inspo.css" rel="stylesheet" type="text/css">
+                <link href="/Users/emiliano/codebase/webdev/css/midsection.css" rel="stylesheet" type="text/css">
+                <link href="/Users/emiliano/codebase/webdev/css/events.css" rel="stylesheet" type="text/css">
+
+<style>
+</style>
+	</head>
+
+
+
+
+<!--------------CHART-------------------------------------->
+  <div class="tradingview-widget-container">
+  <div id="tradingview_b4826"></div>
+  <div class="tradingview-widget-copyright"></div>
+
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript" src="/Users/emiliano/codebase/webdev/scripts/charts.js">
+  </script>
+</div>
+
+<!--------------/CHART-------------------------------------->
+
+
+
+<!--------------YOUTUBE-------------------------------------->
+
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6lCCk6rgn84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
+
+<div class="box_section">
+
+<!--------------NEWS-------------------------------------->
+<div class="box">
+    <div id="news">
+    </div>
+</div>
+    <script src="/Users/emiliano/codebase/webdev/scripts/news.js"></script>
+<!--------------/NEWS-------------------------------------->
+
+<!--------------INSPOQUOTES-------------------------------------->
+
+<div class="box_center">
+    <div id="inspo">
+    </div>
+</div>
+    <script src="/Users/emiliano/codebase/webdev/scripts/inspo.js"></script>
+<!--------------/INSPOQUOTES-------------------------------------->
+
+
+<!--------------EVENTS-------------------------------------->
+<div class="box_center">
+    <div id="events">
+    </div>
+</div>
+    <script src="/Users/emiliano/codebase/webdev/scripts/events.js"></script>
+<!--------------/EVENTS-------------------------------------->
+</div>
+
+
+<!--------------BANNER-------------------------------------->
+<div class="banner">
+<div class="tradingview-widget-container">
+<div class="tradingview-widget-copyright"></div>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    },
+    {
+      "description": "Apple",
+      "proName": "NASDAQ:AAPL"
+    },
+    {
+      "description": "LINK",
+      "proName": "KRAKEN:LINKUSD"
+    },
+    {
+      "description": "BOEING",
+      "proName": "NYSE:BA"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+
+</script>
+</div>
+</div>
+
+<!--------------/BANNER-------------------------------------->
+
+</body>
+</html>
